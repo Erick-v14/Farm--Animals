@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FarmAnimals
 {
-    class Program
+    class TedTheTurtle
     {
-        static void Main(string[] args)
+        public static void main()
         {
-            app.main();
+
         }
     }
 }
