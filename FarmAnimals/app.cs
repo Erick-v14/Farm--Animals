@@ -16,7 +16,7 @@ namespace FarmAnimals
         public static void intro()
         {
             bool quit = false;
-            do
+           do
             {
                 Console.WriteLine("******Welcome to the Farm******");
                 Console.WriteLine("1. Harry the Horse");
@@ -27,7 +27,7 @@ namespace FarmAnimals
                 var userselection = Console.ReadLine();
                 if (userselection == "1")
                 {
-                    HarryTheHorse.speak();
+                    HarryTheHorse.main();
                 }
                 else if (userselection == "2")
                 {
@@ -52,7 +52,7 @@ namespace FarmAnimals
                     Console.ReadKey();
                     Console.Clear();
                 }
-            } while (!quit);
+            }while (!quit);
         }
     }
 }
